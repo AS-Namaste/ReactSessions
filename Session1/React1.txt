@@ -1,0 +1,2 @@
+CSS files are linked in the head because they get applied regardless of DOM already rendered or not. 
+Hence the webpage looks elegant as soon as the page loads

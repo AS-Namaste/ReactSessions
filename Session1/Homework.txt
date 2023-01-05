@@ -1,0 +1,53 @@
+Q1: What is Emmet?
+Ans: Emmet is a free add-on for your text editor that allows you to type shortcuts that are then expanded into full pieces of code
+With Emmet we can quickly create an HTML boilerplate in the blink of an eye. 
+In an HTML file, simply type ! and you'll see that Emmet has popped up as a suggestion. 
+Now hit Enter.
+
+Use this link to use emmet in JS files to save time:
+https://javascript.plainenglish.io/how-to-enable-emmet-for-react-to-improve-your-productivity-6fae59000294
+
+
+Q2: Library: 
+
+Ans: A library consists of functions that an application can call to perform a task.(less rules)
+Framework:
+ Framework contains a large collection of libraries that provides the developer with inbuilt functionalities
+ ,which helps to develop an application without extensive coding knowledge.(More rules)
+
+Q3: What is CDN? Why do we use it?
+Ans: Content delivery network (CDN) refers to a geographically distributed group of servers which work together 
+to provide fast delivery of Internet content.
+
+Q4:why is React known as React?
+Ans:React was developed for applications that have constantly changing data. Since React is a front-end framework or the “View” in MVC, this means that as the user clicks around and changes the app's data, 
+the view should “react” or change with those user events.
+
+Q5:What is crossorigin in script tag?
+CORS-Cross origin resource sharing.
+It is a mechanism that allows resources on a web page to be requested from another domain outside their own domain. 
+It defines a way of how a browser and server can interact to determine whether it is safe to allow the 
+cross-origin request. CORS allows servers to specify who can access the assets on the server, by setting specific HTTP header
+like Access control Allow origin.
+ Process:Before making an actual API call preflight/Option request is made to serevr and that sets HTTP header in the browser. 
+ through which the server knows it is safe to respond it with data(Requested for) when actual API call is made.
+
+ Q6:What is diference between React and ReactDOM?
+React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
+Q7:What is difference between react.development.js and react.production.js files via CDN?
+react.production.js has the minified version of files that would make application to have better performance as minifed version reduces payload and script parse time, 
+resulting in faster page loads, and also its difficult to debug in this case,W
+hereas react.development.js does not have minified version and not optimized , therefore easy to debug.
+
+
+Q8:What is async and defer?
+Generally, When script tag does not have any of the above keyword 
+ While parsing the HTML code when browser encounters script tag, it pauses the parsing, fetches the script 
+ from network and executes the script, Once the script is executed after that browser resumes HTML parsing.
+ASYNC:
+The browser will download the script file and continue parsing HTML parallelly until the file is downloaded.
+The file is executed as soon as it is downloaded.
+DEFER:
+The defer attribute tells the browser not to wait for the script. Instead, the browser will continue to process the HTML, build DOM. 
+The script loads “in the background”, and then runs when the DOM is fully built.
